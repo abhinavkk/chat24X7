@@ -1,0 +1,89 @@
+#head {
+	height: 100px;
+	background-color: #191b28;
+}
+body {
+	margin: 0px;
+	background-color: #f1f1f1;
+}
+#name {
+		font-size: 40px;
+		font-family: cursive;
+		color: #f7e9c4;
+		margin-left: 30px;
+		position: relative;
+	    top: 15;
+}
+#main {
+	padding: 50px;
+}
+h {
+	font-family: arial;
+}
+.file {
+	width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+#main2 {
+	float: left;
+	margin-top: 40px;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+#main3 {
+	float: right;
+	padding: 30px;
+	height: 331px;
+	text-align: left;
+	width: 500px;
+	position: relative;
+	right: 100;
+	overflow: auto;
+	box-shadow: 2px 2px 15px #9d9d9d;
+	background-color: #d4d4d4;
+}
+#user {
+	float: right;
+	position: relative;
+	top: 3px;
+}
+#print {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-margin-start: 0px;
+	width: 483;
+	position: relative;
+	top: -17px;
+}
+#logout {
+	float: right;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 75px;
+	font-family: arial;
+	color: rgb(233, 233, 244);
+	text-decoration: none;
+}
+#info {
+	position: relative;
+	height: 18px;
+	top: 4px;
+}
+button {
+	height: 18px;
+}
+#usernamedisp {
+	width: 600px;
+	position: relative;
+	top: 20px;
+	margin: 0px;
+	left: 348px;
+	-webkit-margin-after: 0px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head meta charset="utf-8">
+<title>{{title}}</title>	
+<link rel="stylesheet" href="assets/css/index.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+  <div id="head">
+    <span id="name"><strong>C</strong>hat24<strong>X</strong>7</span> 
+    <span id="login">
+    <form action="/" method="post">
+      <input type="text" class="user" name="username" placeholder="username">
+      <input type="password" class="user" name="password" placeholder="password">
+      <input type="submit" value="Submit" name="submit"><br/>
+      <span id="remb"><input type="checkbox" name="rememberme">Remember Me</span>
+    </form>  
+    </span>     
+  </div>  
+  <div id="body">
+    <div id="signup">
+      <div id="s1">Sign Up</div>
+    <form id="f2" action="/signup" method="post">
+    <br/><br/><input class="signup" type="text" name="name" placeholder="Enter your Name" required><br/><br/>
+    <input class="signup" type="text" name="username" placeholder="Enter your Username" required><br/><br/>
+    <input class="signup" type="password" name="password" placeholder="Enter your password" required><br/><br/>
+    <span id="bday">Enter Your Birthdate</span><br/> 
+    <input class="signup" name="bday" type="date" required><br/><br/>
+    <div id="gender"> 
+      <input class="rad1" name="gender" value="Male" type="radio" required><label class="male">Male</label><input value="Female" class="rad2" name="gender" type="radio"><label>Female</label> 
+    </div><br/><br/>
+    <input type="submit" class="submit" value="Submit" name="submit"> 
+    </form>
+    </div> 
+    <div id="disp"> 
+    {% for post in posts %}
+    <div><strong>{{post.username}}:</strong>{{" "}}{{post.comment}}<br/><span id="info"><span id="a{{post.id}}">{{post.likes}}LIKES</span></span><span id="user">{{post.time}}</span></div><hr id="print"><br/>
+   	{% endfor %}
+    </div>
+    </div>
+</body>
+</html> 

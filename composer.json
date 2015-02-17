@@ -1,0 +1,17 @@
+{
+  "name" : "Chat24X7",
+  "description": "Chatting Web Site",
+  "keywords": ["Chatting", "Chat24X7", "twig"],
+  "require": {
+    "torophp/torophp": "dev-master",
+    "twig/twig": "1.*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\":"app/controllers",
+      "Models\\": "app/models/"
+    }
+  }
+}

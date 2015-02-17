@@ -1,0 +1,23 @@
+#head {
+	height: 100px;
+	background-color: #191b28;
+}
+body {
+	background-color: #f1f1f1;
+	margin: 0px;
+}
+#name {
+		font-size: 40px;
+		font-family: cursive;
+		color: #f7e9c4;
+		margin-left: 30px;
+		position: relative;
+	    top: 15;
+}
+#main {
+	padding: 50px;
+	text-align: center;
+}
+h {
+	font-family: arial;
+}
